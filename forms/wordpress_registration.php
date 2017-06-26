@@ -14,7 +14,7 @@ function wp_register_form_add_imagree_checkbox() {
     <p>
         <label for="imagree">
             <input type="checkbox" name="imagree" id="imagree">
-            <?php echo get_option('imagree_checkbox_label'); /*@todo: add localization*// ?>
+            <?php echo get_option('imagree_checkbox_label'); /*@todo: add localization*/ ?>
             <span class="required">*</span>
         </label>
     </p>
